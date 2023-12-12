@@ -1,0 +1,32 @@
+.header {
+    background-color: #011936ff; /* Oxford Blue */
+    color: #c0dfa1ff; /* Tea Green */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .header .logo {
+    color: #82a3a1ff; /* Cambridge Blue */
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .logo {
+    width: 100px;
+  }
+  
+  .header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header .nav-links a {
+    color: #465362ff; /* Charcoal */
+    text-decoration: none;
+  }
+  
+  .header .nav-links a:hover {
+    color: #9fc490ff; /* Olivine */
+  }
